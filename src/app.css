@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+/* Enhanced scrollbar styling for better visibility */
+.overflow-x-auto::-webkit-scrollbar {
+  height: 14px;
+}
+
+.overflow-x-auto::-webkit-scrollbar-track {
+  background: #f3f4f6;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+}
+
+.overflow-x-auto::-webkit-scrollbar-thumb {
+  background: #9ca3af;
+  border-radius: 8px;
+  border: 2px solid #f3f4f6;
+  min-width: 50px;
+}
+
+.overflow-x-auto::-webkit-scrollbar-thumb:hover {
+  background: #6b7280;
+}
+
+.overflow-x-auto::-webkit-scrollbar-thumb:active {
+  background: #4b5563;
+}
