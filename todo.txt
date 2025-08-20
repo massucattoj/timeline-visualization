@@ -1,0 +1,27 @@
+Q&A
+
+- What I Like About This Implementation
+The modular design is something I'm really proud of - each component has a single responsibility, which I think shows a nice approach to building React apps.
+
+This was definitely a user experience focused project. I spent time on the little details like hover-to-reveal edit buttons and smooth zoom controls. You can see clear states for editing and interactions throughout. The integration with Lucide React and Tailwind added a really nice touch to the whole project.
+
+I also tried to make some performance optimizations like efficient re-renders and memoized calculations - nothing too fancy, but it keeps things smooth.
+
+- What I Would Change If Starting Over
+Probably would try to enhance the state management with Context API or Zustand. The Drag and Drop feature is the big one I wasn't able to implement - that would really complete the experience.
+
+Maybe add export capability so users could save their timelines, and definitely would consider using shadcn/ui for even better component consistency.
+
+- Design Decisions & Inspiration
+I was inspired by Jira timeline for the base design, but after that I kept changing things as I liked them and thought they could be good ideas. The color scheme and interactions evolved pretty organically from there.
+
+The zoom controls were inspired by mapping apps like Google Maps - that familiar pattern just makes sense for users.
+
+- Testing Strategy (If I Had More Time)
+Would focus on component testing with React Testing Library:
+- Timeline rendering with different data sets
+- Edge cases (empty data, single items, etc.)
+- Zoom functionality at different levels
+- Edit event name workflows
+
+Probably some integration tests for the complete user flows too.
